@@ -1,0 +1,23 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Get All Product",
+    "dateExported": "2024-03-02T13:22:25.939Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "5b9a4772-4316-4abd-9bfb-c4ce55499f50",
+            "colId": "7d9bf30f-60bc-4762-a690-c028c0896ac0",
+            "containerId": "",
+            "name": "Get All Product",
+            "url": "http://localhost:4000/allproducts",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-02T11:40:38.848Z",
+            "modified": "2024-03-02T11:40:38.848Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Add Product",
+    "dateExported": "2024-03-02T13:22:12.345Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "fae8fbd1-a41a-4221-a4f9-7ee76278bb3b",
+            "colId": "dc3fe04f-0f9e-43cc-a3e8-c1bf8527cf7f",
+            "containerId": "",
+            "name": "Add Product",
+            "url": "http://localhost:4000/addproduct",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-02T11:40:18.559Z",
+            "modified": "2024-03-02T11:40:18.559Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Trendy Black Jerk\",\n  \"image\":\"http://localhost:4000/images/product_1709307322120.png\",\n  \"category\":\"kid\",\n  \"new_price\":860,\n  \"old_price\":980\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+.add-details {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: space-between; /* Distribute items evenly */
+    margin: 20px; /* Outer spacing */
+    border: 2px solid #ccc; /* Border */
+    border-radius: 10px; /* Border radius */
+    padding: 20px; /* Inner spacing */
+}
+
+/* Styling for each item field */
+.add-details-itemfield {
+    width: calc(50% - 10px); /* Set width for two columns with a margin in between */
+    margin-bottom: 20px;
+}
+
+/* Styling for the paragraph within the item field */
+.add-details-itemfield p {
+    margin-bottom: 5px;
+}
+
+/* Styling for the textarea and input */
+.add-details-itemfield textarea,
+.add-details-itemfield input {
+    width: 100%; /* Set width to fill container */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling for the select dropdown */
+.add-details-selector {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling for the button */
+.add-details-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Styling for the button hover effect */
+.add-details-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .add-details-itemfield {
+        width: 100%; /* Set width to 100% for single column on smaller screens */
+    }
+}

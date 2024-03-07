@@ -1,0 +1,23 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Get New Collections",
+    "dateExported": "2024-03-02T13:22:42.193Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "d57c0e09-b65d-4406-b5be-907983058c8b",
+            "colId": "8649d99b-029d-4975-87f4-c39c4bc5a157",
+            "containerId": "",
+            "name": "New-Collections",
+            "url": "http://localhost:4000/newcollections",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-02T11:41:13.241Z",
+            "modified": "2024-03-02T11:41:13.241Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

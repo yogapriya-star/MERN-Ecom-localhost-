@@ -1,0 +1,40 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Upload Images",
+    "dateExported": "2024-03-02T13:22:07.729Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6dd8523c-9228-4d4e-9e70-a7330b9d91fe",
+            "colId": "415b937d-0b54-44fc-9481-9f0e357c8870",
+            "containerId": "",
+            "name": "Upload Image",
+            "url": "http://localhost:4000/upload",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-03-02T11:39:58.475Z",
+            "modified": "2024-03-02T11:39:58.475Z",
+            "headers": [
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [],
+                "files": [
+                    {
+                        "name": "product",
+                        "value": "c:\\Users\\Integrass\\Desktop\\E-commerce-MERN\\frontend\\src\\Components\\Assets\\product_36.png"
+                    }
+                ]
+            },
+            "tests": []
+        }
+    ]
+}
